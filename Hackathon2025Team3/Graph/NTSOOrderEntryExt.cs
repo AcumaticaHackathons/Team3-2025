@@ -70,14 +70,8 @@ namespace Hackathon2025Team3
         [PXButton]
         public virtual IEnumerable addNewNote(PXAdapter adapter)
         {
-            //this.NTNotes.Cache.Clear();
-
-            //NTNote NewNote = new NTNote();
-            //NewNote = NTNotes.Insert(NewNote);
-
             if (this.NTNotes.AskExt() == WebDialogResult.OK)
             {
-               // base.Base.Save.Press();
             }
 
             return adapter.Get();
