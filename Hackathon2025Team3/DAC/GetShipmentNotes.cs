@@ -8,7 +8,7 @@ namespace Hackathon2025Team3
   public class GetShipmentNotes : PXBqlTable, IBqlTable
   {
         #region ShipNbr
-        [PXDBString(15, IsUnicode = true, InputMask = "")]
+        [PXDBString(15, IsUnicode = true, InputMask = "",IsKey =true)]
         [PXUIField(DisplayName = "Shipment Nbr")]
         public virtual string ShipNbr { get; set; }
         public abstract class shipNbr : PX.Data.BQL.BqlString.Field<shipNbr> { }

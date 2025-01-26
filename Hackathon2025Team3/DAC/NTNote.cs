@@ -15,7 +15,7 @@ namespace Hackathon2025Team3
         #endregion
 
         #region Notekey
-        [PXDBIdentity]
+        [PXDBIdentity(IsKey =true)]
         public virtual int? Notekey { get; set; }
         public abstract class notekey : PX.Data.BQL.BqlInt.Field<notekey> { }
         #endregion

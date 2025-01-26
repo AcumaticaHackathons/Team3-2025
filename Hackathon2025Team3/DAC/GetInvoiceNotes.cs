@@ -8,7 +8,7 @@ namespace Hackathon2025Team3
   public class GetInvoiceNotes : PXBqlTable, IBqlTable
   {
     #region InvRefNbr
-    [PXDBString(15, IsUnicode = true, InputMask = "")]
+    [PXDBString(15, IsUnicode = true,IsKey =true, InputMask = "")]
     [PXUIField(DisplayName = "Inv Ref Nbr")]
     public virtual string InvRefNbr { get; set; }
     public abstract class invRefNbr : PX.Data.BQL.BqlString.Field<invRefNbr> { }

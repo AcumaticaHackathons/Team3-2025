@@ -88,7 +88,7 @@ namespace Hackathon2025Team3
             var userName = Base.Accessinfo.UserName;
             var companyName = Base.Accessinfo.CompanyName;
             var user = userName + "@" + companyName;
-            var groupID = NTNotesGroups.Select().RowCast<NTNoteGroups>().FirstOrDefault().GroupID ?? Guid.NewGuid();
+            var groupID = NTNotesGroups.Select().RowCast<NTNoteGroups>().FirstOrDefault()?.GroupID ?? Guid.NewGuid();
             var userGUI = Base.Accessinfo.UserID;
             //PErform a PXDatabase.Insert for NTNote
             PXDatabase.Insert(typeof(NTNote),
