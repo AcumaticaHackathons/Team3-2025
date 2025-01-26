@@ -7,6 +7,12 @@ namespace Hackathon2025Team3
   [PXCacheName("GetShipmentNotes")]
   public class GetShipmentNotes : PXBqlTable, IBqlTable
   {
+        #region ShipNbr
+        [PXDBString(15, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Shipment Nbr")]
+        public virtual string ShipNbr { get; set; }
+        public abstract class shipNbr : PX.Data.BQL.BqlString.Field<shipNbr> { }
+        #endregion
         #region Ordernbr
         [PXDBString(15, IsUnicode = true, InputMask = "")]
         [PXUIField(DisplayName = "Ordernbr")]

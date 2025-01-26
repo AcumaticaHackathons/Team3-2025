@@ -2,18 +2,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon2025Team3", "Hackathon2025Team3\Hackathon2025Team3.csproj", "{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AcuHackathon", "http://localhost/AcuHackathon", "{34D5E170-325D-4159-8020-CFC0347CC699}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/AcuHackathon"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Acumatica\24R2\AcuHackathon\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AcuHackathon\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AcuHackathon"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Acumatica\24R2\AcuHackathon\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AcuHackathon\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\Acumatica\24R2\AcuHackathon\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{407B75C1-DF84-479F-BD54-F5A5D7012034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{407B75C1-DF84-479F-BD54-F5A5D7012034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D5E170-325D-4159-8020-CFC0347CC699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D5E170-325D-4159-8020-CFC0347CC699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

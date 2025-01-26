@@ -7,12 +7,13 @@ namespace Hackathon2025Team3
   [PXCacheName("NTNotesForShipments")]
   public class NTNotesForShipments : PXBqlTable, IBqlTable
   {
+    
     #region Ordernbr
     [PXDBString(15, IsUnicode = true, InputMask = "")]
-    [PXUIField(DisplayName = "Ordernbr")]
-    public virtual string Ordernbr { get; set; }
-    public abstract class ordernbr : PX.Data.BQL.BqlString.Field<ordernbr> { }
-    #endregion
+[PXUIField(DisplayName = "Ordernbr")]
+public virtual string Ordernbr { get; set; }
+public abstract class ordernbr : PX.Data.BQL.BqlString.Field<ordernbr> { }
+#endregion
 
     #region OrderType
     [PXDBString(2, IsFixed = true, InputMask = "")]
