@@ -8,22 +8,20 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Hackathon2025Team3.Graph
+namespace Hackathon2025Team3
 {
     public class NTSOShipmentEntryExt : PXGraphExtension<SOShipmentEntry>
     {
         public static bool IsActive() => true;
 
-
-
         #region Views
         public SelectFrom<NTNoteGroups>.Where<NTNoteGroups.noteid.IsEqual<SOShipment.noteID.FromCurrent>>.View NTNotesGroups;
 
         public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotes;
+        public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotesList;
         #endregion
 
-
-        #region event handlers
+        #region Event Handlers
         public virtual void _(Events.RowInserted<SOShipment> e)
         {
             SOShipment Row = (SOShipment)e.Row;
@@ -42,6 +40,37 @@ namespace Hackathon2025Team3.Graph
                     NTNotesGroups.Insert(NewNoteGroup);
                 }
             }
+        }
+
+        public virtual void _(Events.RowInserting<NTNote> e)
+        {
+            NTNote Row = (NTNote)e.Row;
+            if (Row == null)
+            {
+                return;
+            }
+
+            NTNoteGroups Group = this.NTNotesGroups.Select().FirstOrDefault();
+            if (Group == null)
+            {
+                return;
+            }
+
+            Row.GroupID = Group.GroupID;
+        }
+        #endregion
+
+        #region Actions
+        public PXAction<SOShipment> AddNewNote;
+        [PXUIField(DisplayName = "Add Note")]
+        [PXButton]
+        public virtual IEnumerable addNewNote(PXAdapter adapter)
+        {
+            if (this.NTNotes.AskExt() == WebDialogResult.OK)
+            {
+            }
+
+            return adapter.Get();
         }
         #endregion
     }

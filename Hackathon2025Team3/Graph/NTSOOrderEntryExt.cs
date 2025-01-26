@@ -12,9 +12,7 @@ namespace Hackathon2025Team3
 {
     public class NTSOOrderEntryExt : PXGraphExtension<SOOrderEntry>
     {
-        public static bool IsActive() => true;
-
-        
+        public static bool IsActive() => true;        
 
         #region Views
         public SelectFrom<NTNoteGroups>.Where<NTNoteGroups.noteid.IsEqual<SOOrder.noteID.FromCurrent>>.View NTNotesGroups;
@@ -69,7 +67,6 @@ namespace Hackathon2025Team3
         {
             if (this.NTNotes.AskExt() == WebDialogResult.OK) 
             {
-                base.Base.Save.Press();
             }
 
             return adapter.Get();
