@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|c:\\program files\\acumatica erp\\hackathon\\app_data\\projects\\hackathon2025team3\\hackathon2025team3\\dac\\ntnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|c:\\program files\\acumatica erp\\hackathon\\app_data\\projects\\hackathon2025team3\\hackathon2025team3\\graph\\ntsoorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|solutionrelative:hackathon2025team3\\graph\\ntsoorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|c:\\program files\\acumatica erp\\hackathon\\app_data\\projects\\hackathon2025team3\\hackathon2025team3\\graph\\ntsoshipmententryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|solutionrelative:hackathon2025team3\\graph\\ntsoshipmententryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\hackathon2025team3\\dac\\ntnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|solutionrelative:hackathon2025team3\\dac\\ntnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\hackathon2025team3\\graph\\ntsoorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|solutionrelative:hackathon2025team3\\graph\\ntsoorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\hackathon2025team3\\dac\\ntnotegroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|solutionrelative:hackathon2025team3\\dac\\ntnotegroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|Hackathon2025Team3\\Hackathon2025Team3.csproj|C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\hackathon2025team3\\helpers\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,12 +49,34 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NTSOShipmentEntryExt.cs",
+              "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Graph\\NTSOShipmentEntryExt.cs",
+              "RelativeDocumentMoniker": "Hackathon2025Team3\\Graph\\NTSOShipmentEntryExt.cs",
+              "ToolTip": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Graph\\NTSOShipmentEntryExt.cs",
+              "RelativeToolTip": "Hackathon2025Team3\\Graph\\NTSOShipmentEntryExt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:46:16.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "NTNoteGroups.cs",
+              "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\DAC\\NTNoteGroups.cs",
+              "RelativeDocumentMoniker": "Hackathon2025Team3\\DAC\\NTNoteGroups.cs",
+              "ToolTip": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\DAC\\NTNoteGroups.cs",
+              "RelativeToolTip": "Hackathon2025Team3\\DAC\\NTNoteGroups.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T22:42:19.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Helpers\\Messages.cs",
               "RelativeDocumentMoniker": "Hackathon2025Team3\\Helpers\\Messages.cs",
@@ -58,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Constants.cs",
               "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Helpers\\Constants.cs",
               "RelativeDocumentMoniker": "Hackathon2025Team3\\Helpers\\Constants.cs",
@@ -70,25 +100,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NTSOOrderEntryExt.cs",
               "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Graph\\NTSOOrderEntryExt.cs",
               "RelativeDocumentMoniker": "Hackathon2025Team3\\Graph\\NTSOOrderEntryExt.cs",
               "ToolTip": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Graph\\NTSOOrderEntryExt.cs",
               "RelativeToolTip": "Hackathon2025Team3\\Graph\\NTSOOrderEntryExt.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAA5wFcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T22:09:47.665Z"
+              "WhenOpened": "2025-01-25T22:09:47.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NTNote.cs",
               "DocumentMoniker": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\DAC\\NTNote.cs",
               "RelativeDocumentMoniker": "Hackathon2025Team3\\DAC\\NTNote.cs",
               "ToolTip": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\DAC\\NTNote.cs",
               "RelativeToolTip": "Hackathon2025Team3\\DAC\\NTNote.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-25T22:07:19.053Z",
               "EditorCaption": ""
