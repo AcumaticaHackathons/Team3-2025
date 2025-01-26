@@ -61,6 +61,7 @@
     <Compile Include="DAC\NTNote.cs" />
     <Compile Include="DAC\NTNoteGroups.cs" />
     <Compile Include="Graph\NTSOOrderEntryExt.cs" />
+    <Compile Include="Graph\NTSOShipmentEntryExt.cs" />
     <Compile Include="Helpers\Constants.cs" />
     <Compile Include="Helpers\Messages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
