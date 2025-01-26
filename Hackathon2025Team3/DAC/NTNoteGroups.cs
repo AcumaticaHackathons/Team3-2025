@@ -8,7 +8,7 @@ namespace Hackathon2025Team3
   public class NTNoteGroups : PXBqlTable, IBqlTable
   {
     #region GroupID
-    [PXDBGuid()]
+    [PXDBGuid(IsKey = true)]
     [PXUIField(DisplayName = "Group ID")]
     public virtual Guid? GroupID { get; set; }
     public abstract class groupID : PX.Data.BQL.BqlGuid.Field<groupID> { }

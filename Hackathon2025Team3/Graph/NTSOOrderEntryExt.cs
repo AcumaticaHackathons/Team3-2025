@@ -18,6 +18,8 @@ namespace Hackathon2025Team3
         public SelectFrom<NTNoteGroups>.Where<NTNoteGroups.noteid.IsEqual<SOOrder.noteID.FromCurrent>>.View NTNotesGroups;
 
         public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotes;
+
+        public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotesList;
         #endregion
 
         #region Event Handlers
@@ -65,8 +67,14 @@ namespace Hackathon2025Team3
         [PXButton]
         public virtual IEnumerable addNewNote(PXAdapter adapter)
         {
+            this.NTNotes.Cache.Clear();
+
+            NTNote NewNote = new NTNote();
+            NewNote = NTNotes.Insert(NewNote);
+
             if (this.NTNotes.AskExt() == WebDialogResult.OK) 
             {
+                base.Base.Save.Press();
             }
 
             return adapter.Get();

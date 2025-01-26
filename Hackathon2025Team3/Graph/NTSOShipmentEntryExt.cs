@@ -17,8 +17,8 @@ namespace Hackathon2025Team3
         #region Views
         public SelectFrom<NTNoteGroups>.Where<NTNoteGroups.noteid.IsEqual<SOShipment.noteID.FromCurrent>>.View NTNotesGroups;
 
-        public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotes;
-        public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotesList;
+        public SelectFrom<GetShipmentNotes>.Where<GetShipmentNotes.shipmentNbr.IsEqual<SOShipment.shipmentNbr.FromCurrent>>.View NTNotes;
+        
         #endregion
 
         #region Event Handlers

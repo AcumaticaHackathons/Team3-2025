@@ -1,21 +1,50 @@
-﻿using System;
+using System;
 using PX.Data;
 
 namespace Hackathon2025Team3
 {
-    [Serializable]
-    [PXCacheName("NTNote")]
-    public class NTNote : PXBqlTable, IBqlTable
-    {
+  [Serializable]
+  [PXCacheName("GetShipmentNotes")]
+  public class GetShipmentNotes : PXBqlTable, IBqlTable
+  {
+        #region Ordernbr
+        [PXDBString(15, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Ordernbr")]
+        public virtual string Ordernbr { get; set; }
+        public abstract class ordernbr : PX.Data.BQL.BqlString.Field<ordernbr> { }
+        #endregion
+
+        #region OrderType
+        [PXDBString(2, IsFixed = true, InputMask = "")]
+        [PXUIField(DisplayName = "Order Type")]
+        public virtual string OrderType { get; set; }
+        public abstract class orderType : PX.Data.BQL.BqlString.Field<orderType> { }
+        #endregion
+
+        #region Refnbr
+        [PXDBString(15, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Refnbr")]
+        public virtual string Refnbr { get; set; }
+        public abstract class refnbr : PX.Data.BQL.BqlString.Field<refnbr> { }
+        #endregion
+
+        #region ShipmentNbr
+        [PXDBString(15, IsUnicode = true, InputMask = "")]
+        [PXUIField(DisplayName = "Shipment Nbr")]
+        public virtual string ShipmentNbr { get; set; }
+        public abstract class shipmentNbr : PX.Data.BQL.BqlString.Field<shipmentNbr> { }
+        #endregion
+
         #region GroupID
-        [PXDBGuid]
+        [PXDBGuid()]
         [PXUIField(DisplayName = "Group ID")]
         public virtual Guid? GroupID { get; set; }
         public abstract class groupID : PX.Data.BQL.BqlGuid.Field<groupID> { }
         #endregion
 
         #region Notekey
-        [PXDBIdentity]
+        [PXDBInt()]
+        [PXUIField(DisplayName = "Notekey")]
         public virtual int? Notekey { get; set; }
         public abstract class notekey : PX.Data.BQL.BqlInt.Field<notekey> { }
         #endregion

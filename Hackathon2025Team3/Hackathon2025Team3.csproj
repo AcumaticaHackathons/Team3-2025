@@ -63,11 +63,16 @@
   <ItemGroup>
     <Compile Include="DAC\NTNote.cs" />
     <Compile Include="DAC\NTNoteGroups.cs" />
+    <Compile Include="DAC\NTNotesForShipments.cs" />
     <Compile Include="Graph\NTSOOrderEntryExt.cs" />
     <Compile Include="Graph\NTSOShipmentEntryExt.cs" />
     <Compile Include="Graph\NTSOInvoiceEntryExt.cs" />
     <Compile Include="Helpers\Constants.cs" />
     <Compile Include="Helpers\Messages.cs" />
+    <Compile Include="DAC\NTNotesCombined.cs" />
+    <Compile Include="DAC\GetShipmentNotes.cs" />
+    <Compile Include="DAC\GetInvoiceNotes.cs" />
+    <Compile Include="DAC\NTNotesForInvoices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

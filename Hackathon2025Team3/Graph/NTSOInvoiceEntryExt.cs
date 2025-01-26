@@ -17,7 +17,7 @@ namespace Hackathon2025Team3
         #region Views
         public SelectFrom<NTNoteGroups>.Where<NTNoteGroups.noteid.IsEqual<SOInvoice.noteID.FromCurrent>>.View NTNotesGroups;
 
-        public SelectFrom<NTNote>.Where<NTNote.groupID.IsEqual<NTNoteGroups.groupID.FromCurrent>>.View NTNotes;
+        public SelectFrom<GetInvoiceNotes>.Where<GetInvoiceNotes.invRefNbr.IsEqual<SOInvoice.refNbr.FromCurrent>>.View NTNotes;
         #endregion
 
         #region Event Handlers
