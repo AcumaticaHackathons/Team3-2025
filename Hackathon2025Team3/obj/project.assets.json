@@ -377,20 +377,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joseph.carroll\\.nuget\\packages\\": {}
+    "C:\\Users\\pchen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Hackathon2025Team3.csproj",
+      "projectUniqueName": "C:\\temp\\Github.io\\Team3-2025\\Hackathon2025Team3\\Hackathon2025Team3.csproj",
       "projectName": "Hackathon2025Team3",
-      "projectPath": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\Hackathon2025Team3.csproj",
-      "packagesPath": "C:\\Users\\joseph.carroll\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files\\Acumatica ERP\\Hackathon\\App_Data\\Projects\\Hackathon2025Team3\\Hackathon2025Team3\\obj\\",
+      "projectPath": "C:\\temp\\Github.io\\Team3-2025\\Hackathon2025Team3\\Hackathon2025Team3.csproj",
+      "packagesPath": "C:\\Users\\pchen\\.nuget\\packages\\",
+      "outputPath": "C:\\temp\\Github.io\\Team3-2025\\Hackathon2025Team3\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\joseph.carroll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pchen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -398,7 +398,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://spscommerce.pkgs.visualstudio.com/_packaging/spsc/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net48": {

@@ -21,7 +21,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\..\..\Acumatica\24R2\AcuHackathon\Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
@@ -34,22 +34,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PX.Common">
-      <HintPath>..\..\..\..\Bin\PX.Common.dll</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.Common.dll</HintPath>
     </Reference>
     <Reference Include="PX.Common.Std">
-      <HintPath>..\..\..\..\Bin\PX.Common.Std.dll</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.Common.Std.dll</HintPath>
     </Reference>
     <Reference Include="PX.CS.Contracts">
-      <HintPath>..\..\..\..\Bin\PX.CS.Contracts.dll</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.CS.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="PX.Data">
-      <HintPath>..\..\..\..\Bin\PX.Data.dll</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.Data.dll</HintPath>
     </Reference>
     <Reference Include="PX.Data.BQL.Fluent">
-      <HintPath>..\..\..\..\..\Production\Bin\PX.Data.BQL.Fluent.dll</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.Data.BQL.Fluent.dll</HintPath>
     </Reference>
     <Reference Include="PX.Objects">
-      <HintPath>..\..\..\..\Bin\PX.Objects.DLL</HintPath>
+      <HintPath>C:\Acumatica\24R2\AcuHackathon\Bin\PX.Objects.DLL</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

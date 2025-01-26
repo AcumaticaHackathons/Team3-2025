@@ -372,3 +372,10 @@ C:\Program Files\Acumatica ERP\Hackathon\App_Data\Projects\Hackathon2025Team3\Ha
 C:\Program Files\Acumatica ERP\Hackathon\App_Data\Projects\Hackathon2025Team3\Hackathon2025Team3\obj\Debug\Hackatho.19686EB1.Up2Date
 C:\Program Files\Acumatica ERP\Hackathon\App_Data\Projects\Hackathon2025Team3\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.dll
 C:\Program Files\Acumatica ERP\Hackathon\App_Data\Projects\Hackathon2025Team3\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.pdb
+C:\Acumatica\24R2\AcuHackathon\Bin\Hackathon2025Team3.dll
+C:\Acumatica\24R2\AcuHackathon\Bin\Hackathon2025Team3.pdb
+C:\temp\Github.io\Team3-2025\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.csproj.AssemblyReference.cache
+C:\temp\Github.io\Team3-2025\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.csproj.CoreCompileInputs.cache
+C:\temp\Github.io\Team3-2025\Hackathon2025Team3\obj\Debug\Hackatho.19686EB1.Up2Date
+C:\temp\Github.io\Team3-2025\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.dll
+C:\temp\Github.io\Team3-2025\Hackathon2025Team3\obj\Debug\Hackathon2025Team3.pdb
